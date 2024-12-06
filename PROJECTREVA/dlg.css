@@ -1,0 +1,184 @@
+body,
+h1,
+h2,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #ffffff;
+  background-color: #1a1f36;
+  line-height: 1.6;
+}
+
+.MainNav {
+  background-color: #243b55;
+  padding: 10px 0;
+}
+
+.Wrappe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.Logo img {
+  width: 50vh;
+  height: auto;
+  position: relative;
+  float: left;
+  right: 20vh;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #1ec5ef;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.text-section {
+  background-color: #f0f4ff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-right: 20px;
+  flex: 1;
+}
+.text-section h2 {
+  color: #1a73e8;
+  font-size: 14px;
+  margin: 0;
+}
+.text-section h1 {
+  color: #1a237e;
+  font-size: 24px;
+  margin: 10px 0;
+}
+.text-section p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.image-section {
+  flex: 1;
+  max-width: 600px;
+}
+.image-section img {
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 10vh;
+  margin-top: 5vh;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .text-section,
+  .image-section {
+    max-width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+
+.about {
+  padding: 40px 20px;
+  background-color: #2b3e56;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #1ec5ef;
+  margin-bottom: 10px;
+}
+
+.about h4 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #cbd4e1;
+}
+
+.pluss {
+  padding: 40px 20px;
+  background-color: #1a2740;
+  text-align: center;
+}
+
+.pluss h2 {
+  font-size: 2rem;
+  color: #1ec5ef;
+  margin-bottom: 20px;
+}
+
+.pluss iframe {
+  margin: 20px 0;
+  border: 3px solid #1ec5ef;
+  border-radius: 10px;
+}
+
+.pluss p {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #cbd4e1;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #243b55;
+  color: #ffffff;
+  font-size: 0.9rem;
+  border-top: 3px solid #1ec5ef;
+}
+.mas {
+  width: 100%;
+  height: 70%;
+  margin: 15vh;
+}
+.mas > img {
+  display: flex;
+  position: relative;
+  padding-left: 59vh;
+}
+
+footer h5 {
+  margin: 0;
+}
